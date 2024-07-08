@@ -1,0 +1,87 @@
+body {
+    background-color: #1e1e3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    background-color: #2a2a58;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.badge {
+    background-color: #ffd700;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    margin: 10px 0 5px;
+}
+
+.location, .title {
+    margin: 5px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.email-btn, .phone-btn {
+    background-color: #1abc9c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.phone-btn {
+    background-color: #34495e;
+}
+.phone-btn:hover {
+    background-color: #1abc9c;
+}
+.email-btn:hover {
+    background-color: #34495e;
+}
+
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills span {
+    background-color: #4b4b81;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 12px;
+}
